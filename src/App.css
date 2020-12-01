@@ -1,0 +1,105 @@
+.main-section{
+  padding: 2em;
+  background-color: rgb(81, 190, 240);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.clock-section{
+  padding: 4em 2em;
+  background-color: rgb(236, 233, 236);
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  width: 20em;
+  margin-top:20%;
+}
+
+.stopwatch {
+  width: 100%;
+}
+
+.display {
+  width: inherit;
+  display: flex;
+}
+
+.display span{
+  padding: .3em;
+  background-color: rgb(240, 78, 105);
+  margin-right: .3em;
+  margin-left: .3em;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+  line-height: 3;
+}
+
+
+.start_btn{
+  margin-top: 3em;
+}
+
+.start_btn button{
+  padding: .5em;
+  width: 100%;
+  border-radius: 5px;
+  border: 1.8px solid rgb(240, 78, 105);
+  background-color: transparent;
+  color: rgb(240, 78, 105);
+}
+
+.start_btn button:hover{
+  background-color: rgb(240, 78, 105);
+  color: #fff;
+}
+
+
+.btn_nonStart{
+  display: flex;
+  margin-top: 3em;
+}
+
+.btn_nonStart button{
+  padding: .5em;
+  width: 100%;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn-restart{
+  margin-right: .3em;
+  background-color: rgb(81, 190, 240);
+  border: transparent;
+  color: #fff;
+}
+
+.btn-stop, .btn-resume{
+  border:1.8px solid  rgb(81, 190, 240);
+  background-color: transparent;
+  color:  rgb(81, 190, 240);
+}
+
+.btn-restart:hover{
+  border:1.8px solid  rgb(81, 190, 240);
+  background-color: transparent;
+  color:  rgb(81, 190, 240);
+}
+
+.btn-stop:hover{
+  background-color: rgb(81, 190, 240);
+  color: #fff;
+}
+
+
+.btn-resume:hover{
+  background-color: rgb(81, 190, 240);
+  color: #fff;
+}
+
+
